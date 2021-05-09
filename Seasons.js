@@ -302,22 +302,7 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	app8.getObject('QV-2-9cc','LpTjqh');
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	app8.getObject('QV-29-1','jsUmNR');
 	
@@ -419,27 +404,7 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	app8.getObject('QV-4','49f9565f-d1bf-467f-954c-55014672f374');
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	
 	
@@ -448,51 +413,7 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	
 	app6.getObject('QV-6','tytYEfR');
@@ -514,77 +435,7 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	app6.getObject('QV-7','129ab1e5-0496-49a3-99af-58c3cfe4b373');
 	
 	app6.getObject('QV-8','CNMHGyn');
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	app5.getObject('QV32','rJWmnra');
 	
@@ -593,18 +444,16 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	//create cubes and lists -- inserted here --
-
+	$(document).ready(function () {
+		qlik.resize();
 	$("a").click(function() {
 		qlik.resize();
 	});
+    });
+	
+	//create cubes and lists -- inserted here --
+
+
 	if (app) {
 
 	$(".btn-round").click(function(){
