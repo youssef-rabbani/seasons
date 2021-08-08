@@ -269,9 +269,7 @@ css_bars_bar.BAR-2{
 }
 
 
-.my-legend {
-    padding-left: 10px;
-}
+
 
 
 .title-wrapper {
@@ -287,7 +285,9 @@ css_bars_bar.BAR-2{
 }
 
 
-
+.my-legend {
+    padding-left: 10px;
+}
 .my-legend .legend-title {
     text-align: left;
     margin-bottom: 8px;
