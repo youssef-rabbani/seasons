@@ -602,9 +602,11 @@ qlik.theme.apply('Tourism-theme').then(function(result) {
 	
 	//create cubes and lists -- inserted here --
 
-
+	$("a").click(function() {
+		qlik.resize();
+	});
 	if (app) {
-	
+
 	$(".btn-round").click(function(){
 	qlik.resize();
 	});
