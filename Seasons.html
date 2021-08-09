@@ -4056,16 +4056,7 @@
     <script>
       var root = this.root;
       $(document).ready(function () {
-        $("#nav-drawer paper-menu paper-item").click(function () {
-          var index = $(this).index();
-          Polymer.dom(root).querySelector("iron-pages").selectIndex(index);
-        });
-        $("#nav-menu-button").click(function () {
-          Polymer.dom(root).querySelector("#nav-drawer").togglePanel();
-        });
-        $(window).resize(function () {
-          Polymer.updateStyles();
-        });
+     
       });
     </script>
   </body>
