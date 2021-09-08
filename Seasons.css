@@ -1,3 +1,7 @@
+.qv-object{
+    padding: 0 15px 15px;
+    background-color: transparent;
+}
 /****************************NAV Bar*******************************/
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
     background-color: #337ab700;
@@ -716,10 +720,7 @@ color:black;
     height: 100%;
 }
 
-.qv-object{
-    padding: 0 15px 15px;
-    background-color: transparent;
-}
+
 .qv-object-kpi{
     padding: 0px;
 }
