@@ -8,6 +8,9 @@
 .nav>li>a{
     color: white;
 }
+.qv-collapsed-listbox .title-wrapper .title{
+  font-size: 1em !important;
+}
 .nav-pills>li.active>a{
     border-bottom: 3px solid #f0a859;
 }
@@ -30,9 +33,29 @@
         float: right;
    }
 }
+@media (max-width: 767px) {
+    #maxHeight{
+        height:1280px !important;
+   }
+}
 /****************************NAV Bar*******************************/
 
 /*Devhub stuff*/
+@media (min-width: 992px) {
+  .clear-refresh {
+    position: absolute;
+    right: 0px;
+  }
+  .filter-box{
+      width: 14% !important;
+  }
+  .filter-box2{
+    width: 12% !important;
+}
+}
+
+
+
 .qvwrapper {
     z-index: 100000 !important;
     top: 5px !important;
@@ -860,6 +883,10 @@ color:black;
 /*Fix qv-filterpane*/
 .qv-filterpane {
     overflow: visible;
+}
+
+.FilterValues{
+padding:0px !important;
 }
 
 /*Filter Drawer*/
